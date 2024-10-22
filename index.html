@@ -1,0 +1,194 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>card?</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1"> Las Consecuencias de un Mundo sin Efectivo</a>
+          <a href="#secc2">China y el dinero caducable</a>
+          <a href="#secc3">El Precio de la digitalización: Rehenes de los bancos</a>
+          <a href="#secc4">Pérdida de libertad y autonomía financiera</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1> Las Consecuencias de un Mundo sin Efectivo</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La desaparición del dinero en efectivo es un fenómeno que está ganando impulso a nivel global debido a los avances tecnológicos, y aunque este cambio promete una mayor eficiencia y conveniencia en las transacciones financieras, también plantea una serie de desafíos y preocupaciones que deben ser considerados, puesto que, en un mundo sin efectivo, la privacidad y la seguridad se ven comprometidas, además de que la exclusión financiera puede aumentar y la dependencia de la infraestructura tecnológica se vuelve crítica.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>A continuación, exploraremos las implicaciones de un mundo sin dinero en efectivo, analizando cómo estos cambios podrían afectar nuestra autonomía financiera, privacidad y libertad personal.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>La nueva era económica</p>
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p>La nueva era económica</p>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>China y el dinero caducable</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>China siempre ha estado a la vanguardia de la innovación y uno de sus más recientes experimentos ha sido con monedas digitales, específicamente con su yuan digital a la que se le incluye una característica única: la capacidad de programarle una fecha de caducidad.
+</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Esta función está diseñada para incentivar el gasto y evitar el ahorro excesivo, especialmente en tiempos de recesión económica, donde el gobierno podrá estimular la economía obligando a los ciudadanos a gastar su dinero para mantener la demanda de bienes y servicios, evitando una desaceleración económica más profunda.</p>
+
+		        <br><!--etiqueta para un brinco de renglón-->
+
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La implementación de esta tecnología podría extenderse a otros países, ya que muchos gobiernos están observando de cerca los resultados de estas pruebas para considerar la adopción de medidas similares, por lo que, esta capacidad de para considerar la adopción de medidas similares, para el control gubernamental sobre la economía y la libertad financiera de los ciudadanos</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p>Las desiciones de las grandes potencias influyen de forma global, sean buenas o no.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>El Precio de la digitalización: Rehenes de los bancos</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Adoptar este proceso de innovación, sin duda traería un gran cambio, pues al eliminar el dinero en efectivo, todas las transacciones deben pasar por instituciones financieras como bancos y plataformas, lo que significaría que dependeríamos completamente de estas entidades para acceder a nuestros fondos y realizar pagos.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Asimismo, plantea preocupaciones sobre la privacidad y la libertad financiera de las personas, ya que cada transacción podría ser monitoreada y regulada, lo que podría llevar a una mayor vigilancia y control sobre nuestras actividades financieras, además, en caso de fallos técnicos, ciberataques o crisis financieras, podríamos encontrarnos sin acceso a nuestros fondos para pagar facturas, comprar alimentos o cubrir necesidades básicas.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p>Cada movimiento y cargo podría ser monitoreado</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Pérdida de libertad y autonomía financiera</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Otras de las desventajas es que los bancos y gobiernos podrían imponer restricciones más fácilmente sobre cómo y cuándo podemos usar nuestro dinero, por ejemplo, podrían limitar la cantidad de dinero que se puede gastar en ciertas categorías o incluso congelar cuentas en situaciones de emergencia, por ejemplo, si tus puntos de vista políticos no son del agrado del gobierno, podrían utilizar su influencia para restringir tu acceso a tus fondos, pues esto ya ha sucedido en algunos países donde las autoridades han bloqueado cuentas de individuos y organizaciones consideradas opositoras.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Esta capacidad de congelar cuentas sin previo aviso puede ser utilizada como una herramienta de represión política, limitando la libertad de expresión y la autonomía financiera, lo que nos hace más vulnerables a las decisiones y políticas.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img4.png" title="Img 4">
+        		<!--texto para la imagen-->
+        		<p>¿Y la privacidad y control de nuestros bienes?</p>
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">Todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
